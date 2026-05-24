@@ -4,6 +4,8 @@
   <img src="https://komarev.com/ghpvc/?username=re-stellaris&label=Views&color=orange&style=flat" alt="访问量统计" />&emsp;
 </div>
 
+![Metrics](/github-metrics.svg)
+
 ## About Me
 +   :fire: currently studying in CUHKSZ as a Year 2 student.
 +   :computer: major in CSE with interest in *CV*
