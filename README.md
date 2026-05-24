@@ -4,6 +4,7 @@
 +   :fire: currently studying in CUHKSZ as a Year 2 student.
 +   :computer: major in CSE with interest in *CV*
 +   :eye_speech_bubble: seeking for possible internship opportunities
++   :tv: Bilibili channel with few subcribers
 
 ## Experience
 +   Aug 2024 - Present: College student in Chinese University of Hong Kong, Shenzhen
