@@ -12,6 +12,8 @@
 ## Connect
 +   [Bilibili 哔哩哔哩:逐梦k星辰](https://space.bilibili.com/480050002?spm_id_from=333.1007.0.0 "Title")
 
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=re-stellaris)
+
 <!--
 **re-stellaris/re-stellaris** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
