@@ -1,7 +1,6 @@
-## Hi there 👋
+# Hi there 👋
 
-### About Me
-------------
+## About Me
 +   :fire: currently studying in CUHKSZ as a Year 2 student.
 
 <!--
