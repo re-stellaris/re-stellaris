@@ -1,6 +1,7 @@
 ## Hi there 👋
 
 ### About Me
++   :fire: currently studying in CUHKSZ as a Year 2 student.
 
 <!--
 **re-stellaris/re-stellaris** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
