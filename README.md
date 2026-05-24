@@ -13,7 +13,7 @@
 +   [Bilibili 哔哩哔哩:逐梦k星辰](https://space.bilibili.com/480050002?spm_id_from=333.1007.0.0 "Title")
 
 ## Github data statistics
-![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=re-stellaris)
+![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=re-stellaris&theme=react-dark)
 
 <!--
 **re-stellaris/re-stellaris** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
