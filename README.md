@@ -1,5 +1,5 @@
 # Hi there 👋
-
+![visitors](https://visitor-badge.glitch.me/badge?page_id=re-stellaris&left_color=green&right_color=blue)
 ## About Me
 +   :fire: currently studying in CUHKSZ as a Year 2 student.
 +   :computer: major in CSE with interest in *CV*
