@@ -17,6 +17,8 @@
 +   [Bilibili 哔哩哔哩:逐梦k星辰](https://space.bilibili.com/480050002?spm_id_from=333.1007.0.0 "Title")
 
 ## Github data statistics
+
+![GitHub Streak](https://streak-stats.demolab.com/?user=re-stellaris)
 ![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=re-stellaris&theme=react-dark)
 
 <!--
