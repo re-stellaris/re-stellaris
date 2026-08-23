@@ -47,4 +47,8 @@ jobs:
           user: re-stellaris
           template: classic
           base: header, activity, community, repositories, metadata
+          # Generate streak data natively instead of the external
+          # streak-stats.demolab.com badge, whose shared public instance keeps
+          # hitting GitHub API rate limits (broken image on the profile).
+          plugin_streak: yes
           config_timezone: Asia/Hong_Kong

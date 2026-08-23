@@ -20,19 +20,19 @@
 
 ## Github data statistics
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=re-stellaris)
-
 <!--
-Activity graph badge intentionally removed: the shared public instance
-(github-readme-activity-graph.vercel.app) uses one shared GitHub token and
-frequently fails with "API rate limit exceeded" errors.
+Streak and activity badges were removed because their public instances
+(streak-stats.demolab.com, github-readme-activity-graph.vercel.app) share a
+single GitHub token and frequently fail with "API rate limit exceeded"
+(broken image on the profile).
 
-The Metrics SVG above already includes activity data, so this badge was
-redundant. If you want it back, deploy your own instance
-(https://github.com/Ashutosh00710/github-readme-activity-graph#-deploying-your-own-instance)
-with your own token, then uncomment and point it at your deployment:
+Both stats are now generated natively by the Metrics workflow
+(.github/workflows/Metrics_access.yml) with the repository's own token, and
+are part of the Metrics SVG above (activity + streak sections).
 
-![Ashutosh's github activity graph](https://your-vercel-app.vercel.app/graph?username=re-stellaris&theme=react-dark)
+If you prefer self-hosted badges with your own token instead, deploy:
+- Streak:   https://github.com/DenverCoder1/github-readme-streak-stats
+- Activity: https://github.com/Ashutosh00710/github-readme-activity-graph
 -->
 
 <!--
