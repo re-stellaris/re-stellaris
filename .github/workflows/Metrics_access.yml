@@ -1,30 +1,47 @@
 # Visit https://github.com/lowlighter/metrics#-documentation for full reference
-name:
- Metrics
+name: Metrics
+
 on:
   # Schedule updates (each hour)
-  schedule: [{cron: "0 * * * *"}]
+  schedule:
+    - cron: "0 * * * *"
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
-  push: {branches: ["master", "main"]}
+  push:
+    branches: ["master", "main"]
+
+# Avoid overlapping runs when the hourly schedule and a push fire at the same time
+concurrency:
+  group: metrics
+  cancel-in-progress: true
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    environment: production
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      # Pinned to a concrete release tag instead of "@latest".
+      # Why:
+      #   - "@latest" is a mutable tag: GitHub Actions flags it as non-immutable on
+      #     every run, and the action's code could change under you without notice
+      #     (supply-chain risk / non-reproducible builds).
+      #   - A specific tag makes runs reproducible; keep it updated with Dependabot
+      #     or Renovate (latest major is v4 if you ever want to migrate).
+      - uses: lowlighter/metrics@v3.34
         with:
-          # Your GitHub token
+          # Falls back to the always-available, auto-generated GITHUB_TOKEN when the
+          # METRICS_TOKEN secret is not configured, so the workflow runs out of the box.
+          # Bonus: commits pushed with GITHUB_TOKEN do NOT re-trigger this workflow,
+          # which avoids the endless push-triggered re-runs caused by a PAT.
           # The following scopes are required:
-          #  - public_access (default scope)
+          #  - public_access (default scope, provided by GITHUB_TOKEN on public repos)
           # The following additional scopes may be required:
           #  - read:org      (for organization related metrics)
           #  - read:user     (for user related data)
           #  - read:packages (for some packages related data)
           #  - repo          (optional, if you want to include private repositories)
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
 
           # Options
           user: re-stellaris

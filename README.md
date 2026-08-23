@@ -21,7 +21,19 @@
 ## Github data statistics
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=re-stellaris)
-![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=re-stellaris&theme=react-dark)
+
+<!--
+Activity graph badge intentionally removed: the shared public instance
+(github-readme-activity-graph.vercel.app) uses one shared GitHub token and
+frequently fails with "API rate limit exceeded" errors.
+
+The Metrics SVG above already includes activity data, so this badge was
+redundant. If you want it back, deploy your own instance
+(https://github.com/Ashutosh00710/github-readme-activity-graph#-deploying-your-own-instance)
+with your own token, then uncomment and point it at your deployment:
+
+![Ashutosh's github activity graph](https://your-vercel-app.vercel.app/graph?username=re-stellaris&theme=react-dark)
+-->
 
 <!--
 **re-stellaris/re-stellaris** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
